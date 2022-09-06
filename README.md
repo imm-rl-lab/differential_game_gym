@@ -1,1 +1,3 @@
-# differential_game_gym
+# Differential Game Gym
+
+The repository contains examples of finite-horizon zero-sum differential games implemented as environments (Markov games) for multi-agent reinforcement learning algorithms. Since the problems are initially described by differential equations, in order to formalize them as Markov games, a uniform time-discretization with the diameter <code>dt</code> is used. In addition, it is important to emphasize that, in the games with a finite horizon, agent's optimal policies depend not only on the phase vector, but also on time. Thus, we obtain Markov games, depending on <code>dt</code>, with continuous state space containing time and continuous action space.
