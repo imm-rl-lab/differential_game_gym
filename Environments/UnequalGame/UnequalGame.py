@@ -42,4 +42,5 @@ class UnequalGame:
         if self.state[0] >= self.terminal_time:
             reward = self.state[1] ** 2
             done = True
+        
         return self.state, reward, done, None
